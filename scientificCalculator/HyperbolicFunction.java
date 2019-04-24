@@ -10,7 +10,7 @@
 	    String strOfExpo = Double.toString(e);
 	    double Answer;
 	    
-	    Please type in the desired value in the parameter of Menu() 
+	    //Please type in the desired value in the parameter of Menu() 
 	    
 	    Answer=Menu(5);
 	    String strOfAnswer = Double.toString(Answer);
@@ -18,7 +18,7 @@
 	        
 	                                        }
 	    
-	 Below is Sine Hyperbolic Function   
+	 //Below is Sine Hyperbolic Function   
 		
 	 public static double Sinh(int x ){
 	        double e=2.7182818284590452353602874713527;
@@ -29,7 +29,7 @@
 	     
 	                                   }
 	 
-	 Below is the Cosine Hyperbolic function
+	 //Below is the Cosine Hyperbolic function
 	 
 	  public static double Cosh(int x ){
 	        double e=2.7182818284590452353602874713527;
@@ -40,7 +40,7 @@
 	     
 	                                    }
 	 
-	 Below is the Menu Function
+	 //Below is the Menu Function
 	 
 	 public static double Menu(int x ){
 	    int choice ;
