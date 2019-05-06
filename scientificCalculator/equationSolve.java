@@ -1,4 +1,4 @@
-
+package scientficCalculator;
 import java.util.Scanner;
 class equationSolve{
 
