@@ -29,7 +29,7 @@ class ln
 //	The same can be obtained with java.lang.Math.log() method.
 //	Usage : Math.log(x);
 
-	public static double log(int v)
+	public static double log(float v)
 	{
 		double p=1000000000;
 		return (p*(Math.pow(v,1/p)-1)); 
@@ -38,7 +38,7 @@ class ln
 
 //	Function to calculate logs for any number base.
 
-	public static double log(int v, int b)
+	public static double log(float v, int b)
 	{
 		return (log(v)/log(b));  	// Usage of identity logb x = ln x / ln b
 	}
