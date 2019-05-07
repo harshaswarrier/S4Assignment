@@ -1,15 +1,23 @@
 import java.util.*;
 import java.lang.Math;
-public class Differentiation
+public class Main
 {
 	public static int diff() {
+	        int num;
 			System.out.println("1.Final expression");
 			System.out.println("2.Final value");
 			Scanner s=new Scanner(System.in);
 			Scanner scan = new Scanner(System.in);
 			int g = scan.nextInt();
-			String poly=s.nextLine();
-            int num = scan.nextInt();
+			String poly;
+			if(g!=1){
+			poly=s.nextLine();
+			System.out.println("X:");
+                        num = scan.nextInt();}
+                        else{
+                        poly=s.nextLine();
+                        num=0;
+            }
             int i,j=0,k,result=0;
 	        int c[] = new int[100];
 	        int p[] = new int[100];
@@ -42,7 +50,7 @@ public class Differentiation
 		for(k=0;c[k]!='\0';k++){
 		    l++;    
 		}
-		if(s==1){
+		if(g==1){
 		       for(i=0;i<l;i++){
 		               if(p[i]==1)
 		               {
@@ -69,7 +77,8 @@ public class Differentiation
 		return result;
 	}
 
-
+        
 }
-
-
+	
+            
+          
